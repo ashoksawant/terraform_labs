@@ -1,9 +1,9 @@
 variable "resource_group_name" {
   type        = string
-  description = "947-de1f02aa-setting-up-remote-state-storage"
+  description = "Name of the resource group provided by the lab."
 }
 
 variable "prefix" {
   type        = string
-  description = "strgacc"
+  description = "Prefix to be used for all resources in this lab."
 }
