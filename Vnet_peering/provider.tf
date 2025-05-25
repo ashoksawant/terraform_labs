@@ -2,17 +2,14 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~>3.0"
+      version = "4.30.0"
     }
-  }
-  backend "azurerm" {
-
   }
 }
 
 provider "azurerm" {
-  features {}
+  # Configuration options
   skip_provider_registration = true
-  storage_use_azuread        = true
+  features {}
+  
 }
-
