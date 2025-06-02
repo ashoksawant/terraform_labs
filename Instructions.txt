@@ -1,0 +1,9 @@
+Welcome to the Build an Azure DevOps Pipeline for Terraform lab. In this lab, we will cover six objectives:
+
+Create an Azure DevOps Project
+Prepare the Remote State Backend
+Connect to the Azure Subscription
+Create a Planning Pipeline
+Create an Apply Pipeline
+Deploy Infrastructure with the Pipelines
+By the end of this lab, you'll be ready to create and deploy Infrastructure as Code using Azure DevOps and Terraform.
